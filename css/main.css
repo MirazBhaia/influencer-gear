@@ -79,6 +79,7 @@ nav {
 .home {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin-top: 20px;
 }
 .home-left {
   display: flex;
@@ -102,6 +103,7 @@ nav {
 .home-right img {
   width: 90%;
   padding: 10px;
+  margin-bottom: 10px;
   border: 1px solid #e2eaf1;
   border-radius: 50%;
   background-image: linear-gradient(#c5cace, #1c2d3d);
@@ -123,6 +125,7 @@ nav {
   text-align: center;
   color: rgb(82, 75, 75);
   font-size: 22px;
+  margin-top: 30px;
 }
 .products {
   display: grid;
@@ -180,8 +183,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* height: 100vh; */
-  margin: 50px 0;
+  margin: 70px 0;
 }
 .form {
   background-color: white;
